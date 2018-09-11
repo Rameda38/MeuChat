@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/sing_in"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+<include layout="@layout/app_bar_layout"
+        android:id="@+id/Toobar_login"
+    />
+
+    <EditText
+        android:id="@+id/edNameLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="235dp"
+        android:padding="10dp"
+        android:ems="10"
+        android:text="Name"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/edPassLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="177dp"
+        android:ems="10"
+        android:padding="20dp"
+        android:inputType="textMultiLine"
+        android:text="Password" />
+
+    <Button
+        android:id="@+id/button"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:text="Sing in" />
+</RelativeLayout>

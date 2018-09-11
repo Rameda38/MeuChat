@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/star_page"
+
+    tools:context=".StarPageActivity">
+
+    <Button
+        android:id="@+id/Btt_logar"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="164dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:paddingBottom="10dp"
+        android:text="Already have An Account"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btt_CriarConta"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:paddingBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:text="NEED NEW ACOOUNT"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"/>
+</RelativeLayout>
